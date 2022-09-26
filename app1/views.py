@@ -324,7 +324,7 @@ def productsummary(request,sk):
     
     q=ttpq-ttsq   
     con={
-        'si':si,'ttpq':ttpq,'q':q,'ttpq':ttq,'w':w,'a':a,'y':y,'cmp':cmp
+        'si':si,'ttpq':ttpq,'q':q,'ttpq':ttpq,'a':a,'y':y,'cmp':cmp,
         } 
     return render(request, 'productsummary.html',con)
 
@@ -357,7 +357,7 @@ def prcatsummary(request,sk):
     
     q=ttpq-ttsq   
     con={
-        'si':si,'ttpq':ttpq,'q':q,'ttpq':ttq,'w':w,'a':a,'y':y,'cmp':cmp
+        'si':si,'ttpq':ttpq,'q':q,'ttpq':ttpq,'a':a,'y':y,'cmp':cmp
         } 
     return render(request, 'productcatsummary.html',con) 
 
